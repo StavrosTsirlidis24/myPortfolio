@@ -1,14 +1,173 @@
-<!doctype  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Front end developer portfolio by Stavros Tsirlidis </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Frank+Ruhl+Libre|Kaushan+Script|Shadows+Into+Light" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="script/parallax.js-1.5.0/parallax.min.js"></script>  
+    <script src="script/main.js"></script>
     
+</head>
+
+<body>
+   
+
+
+
+
+
+    <header>
+
+        <!--SVG LOGO-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 200 25">
+
+
+            <!--GROUPED LOGO-->
+            <g transform="translate(35,-275)" width="100%" height="100%">
+              
+                <!--SIRLIDI LETTERS-->
+              <g id="group_sirlidi_letters">
+            
+                <path  d="m 27.828358,267.70681 1.11621,-1.5999 h 0.90537 l 0.0744,6.68486 h -0.81856 c -0.51263,-2.05052 -1.27329,-3.54707 -2.28203,-4.48965 -1.00045,-0.94258 -2.15387,-1.41387 -3.46025,-1.41387 -1.09141,0 -1.98438,0.3266 -2.67891,0.97979 -0.69453,0.65319 -1.04179,1.45107 -1.04179,2.39365 0,0.58705 0.13229,1.10381 0.39687,1.55029 0.26459,0.43822 0.65733,0.79789 1.17822,1.07901 0.52917,0.27285 1.52136,0.56637 2.97657,0.88056 2.04225,0.44649 3.47265,0.89711 4.29121,1.35186 0.82682,0.45476 1.4428,1.0294 1.84795,1.72393 0.40514,0.68626 0.60771,1.49241 0.60771,2.41845 0,1.65365 -0.55811,3.02618 -1.67432,4.11758 -1.10794,1.08314 -2.54248,1.62471 -4.30361,1.62471 -1.89343,0 -3.5388,-0.61185 -4.93613,-1.83555 l -1.40147,1.71152 h -0.89297 v -7.10654 h 0.89297 c 0.34727,1.95958 1.12448,3.50574 2.33164,4.63848 1.20717,1.13275 2.56729,1.69912 4.08037,1.69912 1.2237,0 2.22002,-0.35967 2.98897,-1.07901 0.77721,-0.7276 1.16582,-1.60816 1.16582,-2.64169 0,-0.58704 -0.14469,-1.09968 -0.43408,-1.5379 -0.28938,-0.44648 -0.74827,-0.81855 -1.37666,-1.11621 -0.62839,-0.30592 -1.86449,-0.67385 -3.7083,-1.1038 -2.02572,-0.47956 -3.40652,-1.01699 -4.14239,-1.61231 -1.03353,-0.84336 -1.55029,-2.03812 -1.55029,-3.58428 0,-1.6123 0.51263,-2.93108 1.53789,-3.95634 1.03353,-1.03353 2.35231,-1.5503 3.95635,-1.5503 0.76895,0 1.50068,0.13643 2.19521,0.40928 0.69453,0.27286 1.41387,0.72761 2.15801,1.36426 z"></path>
+              
+                <path  d="m 33.049748,266.31775 h 8.4584 v 0.93017 h -1.45108 c -0.64492,0 -1.0542,0.0827 -1.22783,0.24805 -0.16537,0.1571 -0.24805,0.49609 -0.24805,1.01699 v 13.89063 c 0,0.55397 0.0744,0.90123 0.22325,1.04179 0.19843,0.19018 0.5581,0.28526 1.079,0.28526 h 1.62471 v 0.93017 h -8.4584 v -0.93017 h 1.5999 c 0.56224,0 0.92604,-0.0827 1.09141,-0.24805 0.16536,-0.16536 0.24804,-0.52503 0.24804,-1.079 v -13.89063 c 0,-0.52916 -0.0744,-0.85576 -0.22324,-0.97978 -0.23151,-0.19017 -0.65732,-0.28526 -1.27744,-0.28526 h -1.43867 z"></path>
+               
+                <path  d="m 43.120448,266.31775 h 9.47539 c 1.83555,0 3.25768,0.41755 4.26641,1.25263 1.01699,0.8351 1.52549,1.93064 1.52549,3.28662 0,0.81029 -0.20257,1.53376 -0.60772,2.17041 -0.39687,0.62839 -0.97565,1.13275 -1.73632,1.51309 -0.75241,0.37207 -1.93891,0.64079 -3.55948,0.80615 1.18236,0.32246 1.99678,0.64079 2.44326,0.95498 0.44649,0.30593 0.80202,0.70694 1.06661,1.20303 0.27285,0.48783 0.5829,1.48829 0.93017,3.00137 0.24805,1.08314 0.51263,1.82314 0.79375,2.22002 0.21497,0.30592 0.44648,0.45888 0.69453,0.45888 0.25632,0 0.49197,-0.18603 0.70694,-0.5581 0.22324,-0.38034 0.35966,-1.04593 0.40927,-1.99678 h 0.84336 c -0.15709,2.8112 -1.19475,4.2168 -3.11298,4.2168 -0.60359,0 -1.12862,-0.15296 -1.5751,-0.45889 -0.43822,-0.30592 -0.76895,-0.75654 -0.99219,-1.35186 -0.17363,-0.44648 -0.36794,-1.61643 -0.58291,-3.50986 -0.12403,-1.09967 -0.32246,-1.88102 -0.59531,-2.34404 -0.26459,-0.46302 -0.68213,-0.83509 -1.25264,-1.11621 -0.57051,-0.28112 -1.25264,-0.42168 -2.04639,-0.42168 h -1.50068 v 7.20576 c 0,0.30593 0.0786,0.5209 0.23565,0.64492 0.19843,0.1571 0.52633,0.11431 0.93017,0.23565 h 1.76113 v 0.93017 h -8.52041 v -0.93017 h 1.79834 c 0.39688,0 0.68627,-0.0786 0.86817,-0.23565 0.19017,-0.15709 0.28525,-0.37206 0.28525,-0.64492 V 268.1905 c 0,-0.31419 -0.0951,-0.54983 -0.28525,-0.70693 -0.19017,-0.1571 -0.47956,-0.23565 -0.86817,-0.23565 h -1.79834 z m 5.59346,8.43359 h 2.17041 c 1.45521,0 2.59209,-0.27285 3.41065,-0.81856 0.82682,-0.55396 1.24023,-1.53375 1.24023,-2.93935 0,-0.96738 -0.1571,-1.73219 -0.47129,-2.29443 -0.30593,-0.56224 -0.71107,-0.94671 -1.21543,-1.15342 -0.50436,-0.2067 -1.49655,-0.31006 -2.97656,-0.31006 -0.97565,0 -1.57923,0.0703 -1.81074,0.21084 -0.23151,0.1323 -0.34727,0.36381 -0.34727,0.69453 z"></path>
+               
+                <path  d="m 61.116248,266.39218 h 8.49562 v 0.93018 h -2.034 q -0.48368,0 -0.71932,0.26045 -0.22324,0.24804 -0.22324,0.79375 v 14.47353 q 0,0.5209 0.28525,0.74414 0.29766,0.21084 1.17822,0.21084 h 2.57969 q 2.05879,0 3.36103,-1.36425 1.31465,-1.37666 1.90997,-4.7625 h 0.86816 l -0.42168,7.05693 h -15.2797 v -0.93018 h 1.50069 q 0.76894,0 1.079,-0.28525 0.31006,-0.29766 0.31006,-0.94258 v -14.32471 q 0,-0.45888 -0.26044,-0.69453 -0.26045,-0.23564 -0.76895,-0.23564 h -1.86036 z"></path>
+                
+                <path  d="m 77.173158,266.39218 h 8.45841 v 0.93018 h -1.45107 q -0.96739,0 -1.22784,0.24805 -0.24805,0.23564 -0.24805,1.01699 v 13.89062 q 0,0.83096 0.22324,1.0418 0.29766,0.28525 1.07902,0.28525 h 1.6247 v 0.93018 h -8.45841 v -0.93018 h 1.5999 q 0.84336,0 1.09141,-0.24804 0.24804,-0.24805 0.24804,-1.07901 V 268.5874 q 0,-0.79375 -0.22324,-0.97979 -0.34727,-0.28525 -1.27744,-0.28525 h -1.43867 z"></path>
+               
+                <path  d="m 87.353648,266.39218 h 9.475435 q 2.108396,0 3.584267,0.74414 1.83555,0.94258 3.11299,3.1378 1.28984,2.19521 1.28984,5.19658 0,2.48047 -0.76894,4.46484 -0.58291,1.52549 -1.79834,2.66651 -1.20303,1.14101 -2.939354,1.71152 -1.302234,0.42168 -3.47264,0.42168 h -8.483258 v -0.93018 h 1.73634 q 0.65734,0 0.90538,-0.21084 0.26045,-0.21084 0.26045,-0.65732 v -14.77119 q 0,-0.38447 -0.27285,-0.60772 -0.27285,-0.23564 -0.75655,-0.23564 h -1.87277 z m 6.647701,0.93018 q -0.55811,0 -0.83096,0.23564 -0.26046,0.23565 -0.26046,0.70694 v 14.63476 q 0,0.44648 0.31007,0.68213 0.31006,0.22324 1.0542,0.22324 h 1.562707 q 2.095986,0 3.671077,-1.079 1.029387,-0.71934 1.562697,-2.02158 0.73173,-1.76114 0.73173,-4.86172 0,-4.58887 -1.5999,-6.72207 -1.364251,-1.79834 -4.117564,-1.79834 z"></path>
+                
+                <path  d="m 104.64026,266.39218 h 8.4584 v 0.93018 h -1.45108 q -0.96738,0 -1.22783,0.24805 -0.24805,0.23564 -0.24805,1.01699 v 13.89062 q 0,0.83096 0.22324,1.0418 0.29766,0.28525 1.07901,0.28525 h 1.62471 v 0.93018 h -8.4584 v -0.93018 h 1.5999 q 0.84336,0 1.09141,-0.24804 0.24804,-0.24805 0.24804,-1.07901 V 268.5874 q 0,-0.79375 -0.22324,-0.97979 -0.34727,-0.28525 -1.27744,-0.28525 h -1.43867 z"></path>
+              
+              </g>
+              
+              <!--Under line-->
+              <path id="group_sirlidi_underline" d="m 58.426238,288.92472 v 0 0 h -40.60805 v -2.60197 H 125.06491 v 2.60197 H 82.374438 v 0 z"></path>
+              
+              <!--Created to create text-->
+              <text id="slogan_text" x="60" y="299">
+                  Created to create
+              </text>
+              
+              <!--Cuted S LOGO-->
+              <g>
+               
+                <path class="myLogo" d="m 124.78331,282.78453 c -0.006,1.35043 -0.67051,2.0257 -2.01151,2.0257 h 
+                          -6.67204 c -1.33156,0 -1.99736,-0.67523 -1.99736,-2.0257 v -5.28379 h 3.31477
+                        v 4.51884 h 4.05138 v -4.34886 0 c 0,0 0,0.71773 0,0 l 3.36317,-0.0126 v 0 h -0.0242 z"></path>
+                
+                <path class="myLogo" d="m 114.10241,268.50386 c 0.006,-1.35044 0.6705,
+                     -2.02569 2.01153,-2.02569 h 6.67201 c 1.33157,
+                      0 1.99736,0.67523 1.99736,2.02569 v 5.2838 h -3.31476 v -4.51884 h -4.05139 v
+                      4.34886 0 c 0,0 0,-0.71774 0,0 l -3.36315,0.0126 v 0 h 0.0242 z"></path>
+              </g>
+              
+              <!--Cuted T LOGO-->
+              <g>
+                <path class="myLogo" d="m 6.8318671,269.77562 v 0 0 H 1.1791086 v -3.45787 H 16.108148 v 3.45787 h -5.942624 v 0 z"></path>
+              </g>
+            </g>
+          </svg>
+
+    </header>
+    
+    <div class="parallaxing" class="parallax-window" data-parallax="scroll" data-image-src="img/protectingeye-1110x530.jpg" ></div>
+    <main>
+        
+
+           <section>
+            <h1>Code</h1>
+            <h2>We are borned artist all of us! Release your powers, grab a pencil!
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+            
+            </p>
+           </section>
+
+           <section class="my-skills">
+               <div class="my-skills-label">Superhero<br> code powers </div>
+           </section>
+      
+
+    </main>
+
+    
+    <div class="parallaxing" class="parallax-window" data-parallax="scroll" data-image-src="img/KLIPPOR2-2000x1205.jpg" ></div>
+    <main>
+
+           <section>
+            <h1>Art</h1>
+            <h2>We are borned artist all of us! Release your powers, grab a pencil!
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+            
+            </p>
+           </section>
+
+           <section class="my-skills">
+               
+           </section>
+      
+
+    </main>
+
+    <div class="parallaxing" class="parallax-window" data-parallax="scroll" data-image-src="img/protectingeye-1110x530.jpg" ></div>
+    <main>
+
+           <section>
+            <h1>Graphics</h1>
+            <h2>We are borned artist all of us! Release your powers, grab a pencil!
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolor fugit voluptas praesentium aperiam aut ut esse voluptate sequi et, doloribus ea animi saepe quas. Placeat aliquid soluta modi. Ipsum!
+            
+            </p>
+           </section>
+
+           <section class="my-skills">
+               
+           </section>
+      
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="script/parallax.js-1.5.0/parallax.min.js"></script> 
+    <script src="script/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,147 @@
+html,body{
+    margin: 0px;
+   
+}
+
+
+
+
+
+header{
+    
+    background: white;
+    height: 450px;
+   
+    
+   
+}
+main{
+   
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+section{
+    width: 50%;
+    margin:0% 0% 0% 0%;
+    
+    background-color: rgb(168, 145, 114);
+}
+
+section p{
+    color: rgb(0, 0, 0);
+    margin:0 4% 10% 4%;
+    font-size: 2vh;
+    height:auto;
+ 
+}
+
+section h1{
+    color: rgb(248, 248, 248);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 10vh;
+    margin: 4% 4% 0 4%;
+   
+ 
+}
+
+section h2{
+    color: rgb(34, 34, 34);
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 3vh;
+    margin: 1% 4% 4% 4%;
+   
+ 
+}
+
+.my-skills{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+}
+
+.my-skills-label{
+    text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;;
+    border: 5px solid white;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+
+    background-color: rgb(211, 211, 211);
+    height: 300px;
+}
+
+/*----Parallaxing-------------------------------------*/
+.parallaxing{
+
+    height: 280px;
+}
+
+.parallax-window{
+
+    min-height: 300px;
+}
+
+/*----SVG Logo-START----------------------------------*/
+
+
+#group_sirlidi_letters 
+{
+    fill: rgb(0, 0, 0);
+}
+
+#group_sirlidi_underline
+{
+    fill: rgb(37, 37, 37);
+}
+
+#slogan_text
+{
+    fill: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+}
+.myLogo{
+
+    fill:rgb(241, 137, 0);
+
+}
+
+/*----SVG Logo-END----------------------------------*/
+
+@media (max-width:1200px){
+
+    main{
+
+      
+    }
+}
+
+@media (max-width:800px){
+
+    main{
+     
+       
+   
+            
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            
+        
+    }
+}
